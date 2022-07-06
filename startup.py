@@ -22,4 +22,3 @@ def startup():
         return collection, cred, df
 
 
-print(startup())
