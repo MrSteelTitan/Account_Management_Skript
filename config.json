@@ -1,11 +1,11 @@
 {
   "config": {
     "mongodb": {
-      "uri": "mongodb+srv://SymDigiScentUserManagementProd:Jmqdm2DiduHz0BeC@symsearchdevcluster.cuevu.mongodb.net/?authMechanism=DEFAULT",
+      "uri": "INSERT URI HERE",
       "cluster": "SymFragranceFinderProd",
       "collection": "Distributors"
     },
-    "firebase": "../firebaseServiceAccount.json",
-    "excel": "../03_DigiScent_SymriseSales.xlsx"
+    "firebase": "PATH TO JSON",
+    "excel": "PATH TO EXCEL"
   }
 }
