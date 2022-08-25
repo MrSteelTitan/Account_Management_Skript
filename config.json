@@ -1,11 +1,11 @@
 {
   "config": {
     "mongodb": {
-      "uri": "INSERT URI HERE",
-      "cluster": "SymFragranceFinderProd",
+      "uri": "",
+      "cluster": "SymFragranceFinderDev",
       "collection": "Distributors"
     },
-    "firebase": "PATH TO JSON",
-    "excel": "PATH TO EXCEL"
+    "firebase": "../firebaseServiceAccount.json",
+    "excel": "../06_Test_User_UserMgmntTool.xlsx"
   }
 }

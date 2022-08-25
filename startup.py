@@ -10,7 +10,8 @@ def startup():
 
         cluster = MongoClient(config['config']['mongodb']['uri'])
         db = cluster[config['config']['mongodb']['cluster']]
-        collection = db[config['config']['mongodb']['collection']]
+        distributors = db[config['config']['mongodb']['collection']]
+        sales_contacts = db['SalesContacts']
 
         cred = credentials.Certificate(config['config']['firebase'])
         firebase_admin.initialize_app(cred)
@@ -19,6 +20,6 @@ def startup():
 
         config['config']['mongodb']['uri']
 
-        return collection, cred, df
+        return distributors, sales_contacts, cred, df
 
 
